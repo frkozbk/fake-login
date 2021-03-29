@@ -1,4 +1,4 @@
 export default {
-  loginRequestStatus: "agaga",
+  loginRequestStatus: "loginState",
   logoutRequestStatus: "",
 };
