@@ -4,6 +4,6 @@ export const LoginPlugin = {
   install(Vue, options) {
     const { router, store } = options;
     router.addRoutes(routes);
-    store.registerModule(auth);
+    store.registerModule("auth", auth);
   },
 };
