@@ -1,4 +1,4 @@
 export default {
-  loginRequestStatus: "loginState",
+  loginRequestStatus: "route1",
   logoutRequestStatus: "",
 };

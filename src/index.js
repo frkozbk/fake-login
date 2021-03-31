@@ -1,9 +1,9 @@
 import { routes } from "./router";
-import auth from "./store/modules/auth";
+import app1state from "./store/modules/app1state";
 export const LoginPlugin = {
   install(Vue, options) {
     const { router, store } = options;
     router.addRoutes(routes);
-    store.registerModule("auth", auth);
+    store.registerModule("app1state", app1state);
   },
 };

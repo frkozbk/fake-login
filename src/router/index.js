@@ -8,7 +8,7 @@ const Login = () =>
   );
 export const routes = [
   {
-    path: "/giris-yap",
+    path: "/route1",
     name: "Logina",
     component: Login,
   },
